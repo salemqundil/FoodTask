@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+h2{
+   margin: 0px 0px;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+h3{
+   margin: 0px 0px;
+   font-family: "Dancing Script", cursive;
+   font-size: 28px;
+}
+p{
+   font-family: "Work Sans";
+   line-height: 1.5;
+   margin: 16px 0px 15px;
+}
+.cardRow{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 1100px;
+   position: relative;
+}
+.main_div{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.btn_div{
+   display: flex;
+   justify-content:center;
+   padding: 20px 0px 90px;
+}
+
+footer{
+   text-align: center;
+   padding: 70px 50px;
+   display: flex;
+   justify-content:space-between;
+   color: white;
+   background-color: #222831;
+   height: 310px;
+   margin-top: 30px;
+}
+
+footer div{
+   width: 33%;
+}
+
+.card{
+   margin: 15px;
+   width: 332px; height: 443px;
+   background-color: #222831;
+   border-radius: 18px 18px 15px 15px;
+}
+.card1{
+   display: flex; justify-content: center;
+   align-items: center;
+   width: 332px;
+   height: 215px;
+   background-color: #f1f2f3;
+   border-radius: 15px 15px 0px 30px;
+}
+
+.cardImg{
+   width: 160px; height: 150px;
+}
+.card:hover  .cardImg{
+   width: 170px; height: 160px;
+}
+
+.card2{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.card2Div{
+   padding: 20px;
+}
+
+.cardTitel{
+   font-family: "Work Sans";
+   color: white;
+   font-size: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20;
+}
+
+.cardPragraph{
+   font-family: "Work Sans";
+   color: #fff;
+   font-size: 15px;
+}
+
+.card3{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   
+}
+
+.cardIcon{
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   background-color: rgb(255, 204, 0); 
+   border-radius: 200px; 
+   width: 40px;
+   height: 40px;
+}
+
+.dolar{
+   margin: 10px 0px 8px;
+   font-family: "Work Sans";
+   font-size: 20px;
+}
+
+.cardIconImg{
+   width: 18px;
+}
+
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+ .main-nav{
+   text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-family:"Work Sans";
+    padding: 0px 60px;
+ }
+ 
+ .main-div{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family:"Work Sans"
+ }
+ 
+
+ .icon{
+    height: 20px;
+    padding-right: 10px;
+ }
+
+ .nav_item{
+    display: flex;
+    padding: 20px;
+    
+    list-style: none;
+ }
+
+ .btn{
+    padding: 10px;
+    text-decoration: none;
+    height: fit-content;
+    border: rgb(255, 193, 60) solid 2px;
+    font-family:"Work Sans";
+    border: color rgb(239, 163, 0) solid 5px;
+
+ }
+ .btn:hover{
+    background-color: rgb(239, 163, 0);
+    color: #fff ;
+    border: color rgb(239, 163, 0) solid 5px;
+ }
+
+ .btn-primary{
+    background-color:  rgb(255, 193, 60);
+    border-radius: 30px;
+    color: #fff ;
+    padding: 8px 25px 8px 25px;
+    border: color rgb(239, 163, 0) solid 5px;
+
+ }
+ .btn-primary:hover{
+    background-color: rgb(239, 163, 0);
+    /* border: rgb(239, 163, 0); */
+    color: #fff ;
+    padding: 8px 25px 8px 25px;
+    border-radius: 30px;
+    border: color rgb(239, 163, 0) solid 5px;
+ }
+
+ .iconbtn{
+    display: flex;
+   justify-items: center;
+   align-items: center;
+   /* padding-top: 4%; */
+   padding-left: 60px;
+   
+ }
+ a{
+    text-decoration: none;
+    color: #fff;  
+ }
+ a:hover{
+    color:  rgb(255, 193, 60);
+ }
+
+ .nav-link{
+    padding-right: 40px;
+ }
+
+ .nav-link:hover{
+    color: rgb(255, 193, 60);
+}
+
+ .first{
+    background-image: url(/images/burger2.jpg);
+    background-size: cover;
+    height: 970px;
+ }
+ .second{
+   flex-wrap: wrap;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+    background-color: #222831;
+    background-size: cover;
+    /* height: 750px; */
+ }
+ .second1{
+   max-width: 30%;
+   min-width: 20%;
+
+ }
+ .secondImg{
+   /* display: flex;
+   justify-content: end; */
+   
+   padding: 15px;
+ }
+
+ .secondImg img{
+   max-width: 80%;
+   min-width: 55%;
+ }
+
+
+.third{
+   
+    padding: 90px 0px;
+}
+
+.big_row2{
+   padding: 50px 0px;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;}
+
+.row{
+   /* max-width: 50%; */
+   padding:0px 5%;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    /* justify-content: space-between; */
+ }
+ .headtext{
+   margin: -19px 0px 25px 0px;
+   padding: 0px 6.5% ;
+}
+td,tr{
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+}
+.todyorder{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* max-width: 25%; */
+    width: 45%;
+    /* min-width: 45%; */
+    
+
+}
+
+.map{
+    margin-left: 60px;
+    margin-bottom: 80px;
+    padding: 0px 0px 0px 20px;
+    /* max-width: 25%; */
+    width: 45%;
+    /* min-width: 45%; */
+    display: flex;
+    height: 368px;
+    
+}
+
+input {
+    padding: 20px;
+    width: 100%;
+}
+select{
+   color: rgb(116, 116, 116);
+   margin-right:-44px ;
+   padding: 20px ;
+}
+
+.down{
+   font-size: 18px;
+   padding: 10px 35px;
+   text-align: center;
+   width: 110px;
+   margin-top: 40px;
+}
+
+.cardIcon2{
+   margin: 6px;
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   background-color: rgb(255, 187, 0); 
+   border-radius: 200px; 
+   width: 50px;
+   height: 50px;
+}
