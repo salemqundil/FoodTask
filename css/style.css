@@ -220,7 +220,7 @@ footer div{
 }
 
  .first{
-    background-image: "/images/burger2.jpg";
+    background-image:url('../images/burger2.jpg');
     background-size: cover;
     height: 970px;
  }
