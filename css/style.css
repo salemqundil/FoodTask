@@ -224,6 +224,23 @@ footer div{
     background-size: cover;
     height: 970px;
  }
+
+ .head_titel{
+   padding-top: 14%;
+   width: 34%;
+   color: #fff;
+   padding-left: 15%;
+}
+
+.head_titel h1{
+   font-family: "Dancing Script", cursive;
+   font-size: 60px;
+}
+.head_titel p{
+   padding-bottom: 20px;
+}
+
+
  .second{
    flex-wrap: wrap;;
     color: white;
@@ -288,6 +305,24 @@ td,tr{
     justify-content: center ;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0px 16%;
+}
+
+.card_1{
+   color:#fff;
+   padding-left: 30px;
+}
+
+.card_1 p{
+   font-family: "Dancing Script", cursive;
+   font-size: 56px;
+   margin: 0;
+   padding: 0;
+   padding-bottom: 10px;
+}
+
+.card_1 sub{
+   font-size: 30px;
 }
 
 .book{
